@@ -53,7 +53,7 @@ Implicit conversions are determined at compile time.
 Typically default conversions are in the companion objects or imported from a package.
 If you don't like the default conversion, bring another implicit into a nearer scope than the default. 
 
-Methods containing multiple arguments can mix and match. Say we define:
+Methods containing multiple arguments can mix and match conversions. Say we define:
 
     def doThreeThings( first: Action, second: Action, third: Action )
     
