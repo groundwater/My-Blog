@@ -1,4 +1,6 @@
-## Introduction
+Here's the **tl;dr**
+
+> never use method overloading because it sucks
 
 Method overloading sucks in Scala because it actually detracts from your flexibility. 
 An implicit conversion is a feature of Scala that let's the compiler 
@@ -7,7 +9,6 @@ look up how to convert objects between types at compile time.
 Let's say I define a method with the following signature:
 
     def doSomething( action: Action )
-    
 
 Somewhere else in the code I write:
 
