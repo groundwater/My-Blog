@@ -31,7 +31,7 @@ The problem with operator overloading, and why is sucks, is because overloaded m
     
 Now our implicit conversion, which we had full control over will no longer work. We're stuck with whatever conversion the overloaded method uses.
 
-Adding mew overloaded methods requires modifying the target class, which is not always possible. One benefit of implicit conversions is that you code will look cleaner. The class containing the method `doSomething` need only implement the method that responds to an `Action`. All conversion code is located elsewhere in the code base.
+Adding new overloaded methods requires modifying the target class, which is not always possible. One benefit of implicit conversions is that your code will look cleaner. The class containing the method `doSomething` need only implement the method that responds to an `Action`. All conversion code is located elsewhere in the code base.
 
 There can be more than one conversion, determined by scoping rules. If you don't like the default conversion, bring another implicit into a nearer scope than the default. Typically default conversions are in the companion objects or imported from a package.
 
