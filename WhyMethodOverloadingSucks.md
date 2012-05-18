@@ -43,13 +43,14 @@ Now our implicit conversion, which we had full control over will no longer work.
 We're stuck with whatever conversion the overloaded method uses.
 
 Adding new overloaded methods requires modifying the target class, which is not always possible. 
-One benefit of implicit conversions is that your code will look cleaner. 
+
+By using implicit conversions your code will look cleaner. 
 The class containing the method `doSomething` need only implement the method that responds to an `Action`. 
 All conversion code is located elsewhere in the code base.
 
-There can be more than one conversion, determined by scoping rules. 
-If you don't like the default conversion, bring another implicit into a nearer scope than the default. 
+Implicit conversions are determined at compile time.
 Typically default conversions are in the companion objects or imported from a package.
+If you don't like the default conversion, bring another implicit into a nearer scope than the default. 
 
 Methods containing multiple arguments can mix and match. Say we define:
 
