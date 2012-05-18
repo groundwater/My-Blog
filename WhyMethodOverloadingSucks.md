@@ -69,3 +69,14 @@ Implicit conversions let us do any of the following:
     
 
 To accomplish the same thing with method overloading, we would require *eight* separate methods.
+
+### Just Say No ###
+
+As Tim points out below, since Scala supports default method arguments, we can avoid the following:
+
+    doSomeThings( action: Action )
+    doSomeThings( action: Action, action: Action )
+    doSomeThings( action: Action, action: Action, action: Action )
+
+Imagine how many methods we would need to define if we wanted to also accept `Idea` types! 
+We would need 14 separate methods. 
