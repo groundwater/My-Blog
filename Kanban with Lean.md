@@ -8,7 +8,7 @@ The validation becomes part of development. The developers are involved in valid
 
 ## Rules of Engagement ##
 
-These rules of engagement are the clearly defined, explicit duties of each person on the team. Violating a RoE, done with purpose, is probably okay but not advised. A RoE is more about pre-allocating work, so team members can act without needing to verify things in lengthly meetings.
+A Rule of Engagement (RoE) is more about pre-allocating work, so team members can act without needing to verify things in lengthly meetings.
 
 ### Product Owner ###
 
