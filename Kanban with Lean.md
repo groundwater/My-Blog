@@ -14,16 +14,16 @@ These rules of engagement are the clearly defined, explicit duties of each perso
 
 The product owner may:
 
-	1. add, re-order, or remove features to the backlog at any time
-	2. mark a validated feature as done, and remove it from the board
+1. add, re-order, or remove features to the backlog at any time
+2. mark a validated feature as done, and remove it from the board
 
 ### Developer ###
 
 Any developer may:
 	
-	1. pull the top feature from the backlog and work on it
-	2. work on any in-progress feature
-	3. open a pull request for any reason
+1. pull the top feature from the backlog and work on it
+2. work on any in-progress feature
+3. open a pull request for any reason
 
 ### Team Master ###
 
@@ -49,10 +49,10 @@ The team also values working code over chat and discussions. There are certainly
 
 The masters job is to give feedback to the entire team. Thus all work done by the master involves directly communicating with team members. The master should trust but veryify as many parts of the project as possible.
 
-	1. has code been reviewd before merging
-	2. are developers pushing their changes often enough
-	3. are features in the pipeline bottlenecking or backing up
-	4. has the product owner submitted a proper feature request
+1. has code been reviewd before merging
+2. are developers pushing their changes often enough
+3. are features in the pipeline bottlenecking or backing up
+4. has the product owner submitted a proper feature request
 
 The master should keep the wheels greesed and find and optmize hotspots.
 
