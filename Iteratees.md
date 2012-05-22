@@ -57,12 +57,12 @@ Thus, the consumer can decide how to proceed based on the `State` send by the pr
 					// return ConsumerDone or ConsumerMore
 	}
 
-The ConsumerState also provides a field. Instead of calling the same f each time, 
-the More ConsumerState provides _the next_ f to be called. 
+The ConsumerMore state should also provides a field. Instead of calling the same f each time, 
+ConsumerMore provides _the next_ f to be called. 
+This allows the iteratee function to behave in a stateful, but functional way.
 	
 	class More(next: ProducerState => ConsumerState) extends ConsumerState
 
 The iteratee provided by the consumer has a chance to swap out or modify the next iteratee called by the producer.
 When the iteratee is full, it simply returns Done and the producer code will know to stop.
-
 
