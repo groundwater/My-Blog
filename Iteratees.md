@@ -17,13 +17,13 @@ but it is advisable to use different signal types for the consumer and producer.
 	trait ConsumerState
 	trait ProducerState
 
-These signals can be anything, but for our example the two signals are `Done` and `More`.
+These signals can be anything, but for our example the two signals are _Done_ and _More_.
 
-	class Done extends ProducerState
-	class More extends ProducerState
+	class ProducerDone extends ProducerState
+	class ProducerMore extends ProducerState
 
-	class Done extends ConsumerState
-	class More extends ConsumerState
+	class ConsumerDone extends ConsumerState
+	class ConsumerMore extends ConsumerState
 
 The iteratee binds the consumer and producer together, using states to coordinate the data exchange.
 
@@ -33,12 +33,12 @@ The iteratee is a function created by the consumer satisfying the following sign
 
 The consumer controls the function logic, 
 the consumer must write a function to properly respond to the possible states returned by the producer.
-When the iteratee is called with a `Done` argument type, the consumer knows the producer is out of data 
+When the iteratee is called with a `ProducerDone` argument type, the consumer knows the producer is out of data 
 and should end the exchange.
 
 The producer, on the other hand, must create a method that _accepts_ an iteratee. 
 Throughout the data exchange, the iteratee is called many times by the producer.
-When the iteratee returns a `Done`, the consumer no longer wishes to receive any more data.
+When the iteratee returns a `ConsumerDone`, the consumer no longer wishes to receive any more data.
 The producer must honour this request, and should end the exchange.
 
 ## Missing Pieces ##
@@ -49,12 +49,12 @@ it should contain a field with the next chunk of data (Let's assume all data typ
 
 	class More(val data: String) extends ProducerState
 
-Thus, the function can decide how to proceed based on the input like this:
+Thus, the consumer can decide how to proceed based on the `State` send by the producer when it calles the iteratee:
 	
-	def f(p: ProducerState) : ConsumerState = {
-		case EndOfFile => Done
-		case m: More => // do something with m.data
-					    // return Done or More
+	def f(state: ProducerState) : ConsumerState = state match {
+		case ProducerDone => ConsumerDone
+		case m: ProducerMore => // do something with m.data
+					// return ConsumerDone or ConsumerMore
 	}
 
 The ConsumerState also provides a field. Instead of calling the same f each time, 
