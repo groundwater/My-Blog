@@ -1,6 +1,6 @@
 # Iteratees #
 
-Whenever data is processed, there is a producer and comsumer.
+Whenever data is processed, there is a producer and consumer.
 For example, a program that reads and parses a JSON file contains code that reads the file (i.e. the producer)
 and code that parses the data stream (i.e. the consumer)
 
