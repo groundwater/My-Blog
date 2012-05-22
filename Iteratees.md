@@ -1,29 +1,45 @@
 # Iteratees #
 
-Whenever data is processed, there is a producer i.e. the code reading the file, 
-and the consumer i.e. the code parsing the incoming text.
+Whenever data is processed, there is a producer and comsumer.
+For example, a program that reads and parses a JSON file contains code that reads the file (i.e. the producer)
+and code that parses the data stream (i.e. the consumer)
 
-An iteratee is a functional way of reading a file where both the consumer and producer can indicate they are done. 
-Given
+An iteratee is a functional way of exchanging data where both the consumer and producer can indicate they are done. 
+Functional programming is beneficial because 
+there are no concurrency issues or race conditions when scaling across multiple threads.
 
-	trait ProducerState
+Let's get started with an example, abstractly any exchange of data will require a producer and consumer object.
+Now the crux of an iteratee is that while it is a functional approach to data exchange, 
+both parties are capable of signaling the other during the transaction.
+Signals are sent as objects that satisfy a generic `State` or `Signal` trait,
+but it is advisable to use different signal types for the consumer and producer.
+
 	trait ConsumerState
+	trait ProducerState
 
-let's make a bunch of possible states (or signals)
+These signals can be anything, but for our example the two signals are `Done` and `More`.
 
-	class EndOfFile extends ProducerState
-	class More 	    extends ProducerState
+	class Done extends ProducerState
+	class More extends ProducerState
 
 	class Done extends ConsumerState
 	class More extends ConsumerState
 
-The iteratee is a function that reads the producer state, and if there is More data will read the data. 
-The iteratee function is created by the consumer.
+The iteratee binds the consumer and producer together, using states to coordinate the data exchange.
+
+The iteratee is a function created by the consumer satisfying the following signature:
 
 	f: ProducerState => ConsumerState
 
-The producer must create a method that _accepts_ an iteratee. 
-The producer decides how to proceed based on the ConsumerState returned at each step.
+The consumer controls the function logic, 
+the consumer must write a function to properly respond to the possible states returned by the producer.
+When the iteratee is called with a `Done` argument type, the consumer knows the producer is out of data 
+and should end the exchange.
+
+The producer, on the other hand, must create a method that _accepts_ an iteratee. 
+Throughout the data exchange, the iteratee is called many times by the producer.
+When the iteratee returns a `Done`, the consumer no longer wishes to receive any more data.
+The producer must honour this request, and should end the exchange.
 
 ## Missing Pieces ##
 
