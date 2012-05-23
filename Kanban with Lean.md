@@ -20,7 +20,7 @@ The work-pipeline introduced by Kanban is a means of controlling pacing and work
 The team should aim to achieve a steady pace for moving features across the board.
 Team roles are divided according to traditional Scrum roles, but this is not scrum.
 There are no meetings, communication is moved to asynchronous chat rooms, email,
-and pull-reqeusts.
+and pull-requests.
 
 Every team has a single **product owner**, 
 all stakeholders must coordinate their needs through the single owner.
@@ -64,7 +64,7 @@ There are no rules of engagement for the team master.
 All actions taken by the master involve other team members, 
 thus there really is no solo action that can be taken.
 
-## Team Guidlines ##
+## Team Guidelines ##
 
 Guidelines are different from rules of engagement. 
 An RoE specifies what a team member may do without direct approval because 
@@ -79,7 +79,7 @@ The team as a whole is responsible for moving features through the pipeline.
 In order to support the team, developers must communication. 
 The asynchronous chat system is notification driven. 
 Any time a developer is stuck, bored, blocked, or confused, they should notify their team. 
-If possible mention key people in the notifiaction with @mentions.
+If possible mention key people in the notification with @mentions.
 
 The duty of a developer is the keep his or her team updated.
 
@@ -96,14 +96,14 @@ and working code means passing tests.
 
 The masters job is to give feedback to the entire team. 
 Thus all work done by the master involves directly communicating with team members. 
-The master should trust but veryify as many parts of the project as possible.
+The master should trust but verify as many parts of the project as possible.
 
-1. has code been reviewd before merging
+1. has code been reviewed before merging
 2. are developers pushing their changes often enough
 3. are features in the pipeline bottlenecking or backing up
 4. has the product owner submitted a proper feature request
 
-The master should keep the wheels greesed and find and optmize hotspots.
+The master should keep the wheels greased and find and optimize hot-spots.
 
 ### Product Owner ###
 
@@ -112,13 +112,13 @@ they are allowed and encouraged to seek team feedback while writing user stories
 
 They owner may inspect the same code repository as the developers use to push their daily work, 
 but the owner feedback will be limited to correcting misunderstandings. 
-The master may choose to weigh in as to whether their comments can be incorporiated right away, 
+The master may choose to weigh in as to whether their comments can be incorporated right away, 
 or will have to be placed in a new feature request.
 
-The owner may place emergency features in an expidite lane. 
-The expidite lane pre-empts all work, even features currently in progress. 
-The entire team works to push expidited features through as fast as possible. 
-Developers are not expected to work on other features during expidited work.
+The owner may place emergency features in an expedite lane. 
+The expedite lane preempts all work, even features currently in progress. 
+The entire team works to push expedited features through as fast as possible. 
+Developers are not expected to work on other features during expedited work.
 
 ## Continuous Validation
 
@@ -140,7 +140,7 @@ failed features will be closed but kept as inactive branches in case they're nee
 
 At the very least, open a pull request for each feature. 
 Put all relevant discussion in the pull request, 
-including how to design, how to test, and how to meausre the feature. 
+including how to design, how to test, and how to measure the feature. 
 What split test to be used should be specified in the feature story.
 
 If a feature fails validation, close the pull request without integrating. 
