@@ -1,5 +1,3 @@
-# Distributed Teams
-
 The problem with software development is that good developers are sparse.
 It can be extremely difficult to collect a team together into a single location.
 Traditional office hours, commuting, meetings, 
@@ -7,8 +5,11 @@ and many traditional business structures do not appeal to young talent.
 
 ## Overview
 
-We attempt to solve these problems by making use of distributed teams,
-and an asynchronous communication model.
+We attempt to solve these problems by making use of distributed teams.
+We use a pull-oriented model for development where developers pull features from a queue instead of being assigned tasks.
+Communication between team members is frequent but asynchronous, utilizing chat rooms and notifications.
+Teams are free to work in a style that suits them best;
+productivity is measured by working products, not hours spent in an office.
 
 ## Kanban 
 
