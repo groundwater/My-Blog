@@ -29,13 +29,17 @@ RoEs are designed to bypass the latency of internal communications and let every
 The product owner may:
 
 1. add, re-order, or remove features to the backlog at any time
-2. mark a validated feature as done, and remove it from the board
+2. remove a feature marked Done from the board
+3. inspect the in-progress features at any time
+4. notify the team master of problems or concerns
+
+The product owner has no direct control over the development team.
 
 ### Developer ###
 
 Any developer may:
-	
-1. pull a feature into an available slot
+
+1. pull the top **Todo** feature into **In Progress** if there is an available slot
 2. open a pull request for any reason
 3. provide feedback on another pull request
 4. pull more information about a feature from the product owner
