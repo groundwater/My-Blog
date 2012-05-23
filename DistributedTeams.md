@@ -11,17 +11,23 @@ Communication between team members is frequent but asynchronous, utilizing chat 
 Teams are free to work in a style that suits them best;
 productivity is measured by working products, not hours spent in an office.
 
-## Kanban 
+## Agile
 
-We use agile development, but with continuous feature development instead of sprints.
-The work-pipeline introduced by Kanban is a means of controlling pacing and work in progress.
+The team is agile at its core; the [agile manifesto](http://agilemanifesto.org/) reads:
 
-![Kanban Board](https://github.com/jacobgroundwater/My-Blog/raw/master/kanban_board.png)
+1. Individuals and interactions over processes and tools
+2. Working software over comprehensive documentation
+3. Customer collaboration over contract negotiation
+4. Responding to change over following a plan
 
-The team should aim to achieve a steady pace for moving features across the board.
-Team roles are divided according to traditional Scrum roles, but this is not scrum.
-There are no meetings, communication is moved to asynchronous chat rooms, email,
-and pull-requests.
+Agile development breaks products into a collection of prioritized features 
+that are implemented in managable increments.
+Features are the core unit of measurement to an Agile team.
+
+## Scrum
+
+Agile has a number of implementations, one of which is scrum.
+We are not a scrum team, but we do cherry-pick the team roles developed by scrum.
 
 Every team has a single **product owner**, 
 all stakeholders must coordinate their needs through the single owner.
@@ -31,6 +37,22 @@ A team of **developers** work together in a self-organized group to move feature
 
 A **team master** oversees the entire process, 
 making sure everyone involved knows what their responsibilities.
+
+
+## Kanban 
+
+Kanban is another agile methodology that implements continuous feature development.
+A kanban team pulls features through a pipeline, 
+making sure to limit work in progress and focusing in task completion.
+
+A kanban board is a graphical representation of all work available to the entire team at any time.
+
+![Kanban Board](https://github.com/jacobgroundwater/My-Blog/raw/master/kanban_board.png)
+
+The team should aim to achieve a steady pace for moving features across the board.
+Team roles are divided according to traditional Scrum roles, but this is not scrum.
+There are no meetings, communication is moved to asynchronous chat rooms, email,
+and pull-requests.
 
 ## Rules of Engagement ##
 
