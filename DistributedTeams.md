@@ -4,14 +4,6 @@ Great software is created by great developers. Unfortunately, each geographical
 area has a finite supply of highly skilled developers. Therefore, it makes sense
 to use better processes to facilitate a distributed team. 
 
-## The Key Problems with Distributed Teams
-
-* communication - how do we keep people in sync?
-* timezone - what are the "office hours"?
-* management - takes a specific type of manager to manage remote workers
-* personality - takes a specific type of person to work remotely
-* isolation - an office provides commradery... 
-
 ## Overview
 
 We attempt to solve these problems by making use of distributed teams.
@@ -215,4 +207,14 @@ All projects may reside in a single git repository.
 If you contribute to a feature, push often, at least daily. 
 This allows integrations to be done fast and often.
 
+
+## Frequently Asked Questions
+
+### How do teams stay in sync?
+
+### How do timezones work? What are the office hours?
+
+### What type of manager can manage a distributed team?
+
+### What kind of developer can work in a distributed team? 
 
