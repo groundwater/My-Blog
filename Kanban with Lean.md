@@ -27,8 +27,10 @@ code can be designed from the start of the feature request to support validation
 
 ## Rules of Engagement ##
 
-A Rule of Engagement (RoE) is more about pre-allocating work, 
-so team members can act without needing to verify things in lengthly meetings.
+Rules of Engagement (RoE) are a key component of distributed efficiency.
+A RoE grants permission to do something automatically.
+There is no need to wait for permission, or a meeting.
+RoEs are designed to bypass the latency of internal communications and let everyone get working.
 
 ### Product Owner ###
 
@@ -41,9 +43,10 @@ The product owner may:
 
 Any developer may:
 	
-1. pull the top feature from the backlog and work on it
-2. work on any in-progress feature
-3. open a pull request for any reason
+1. pull a feature into an available slot
+2. open a pull request for any reason
+3. provide feedback on another pull request
+4. pull more information about a feature from the product owner
 
 ### Team Master ###
 
