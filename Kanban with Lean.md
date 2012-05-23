@@ -15,22 +15,6 @@ and an asynchronous communication model.
 We use agile development, but with continuous feature development instead of sprints.
 The work-pipeline introduced by Kanban is a means of controlling pacing and work in progress.
 
-## Continuous Validation
-
-Introduce the idea of validating each feature as part of the work process. 
-Use split testing for example to show a correlation between new features and growth.
-
-The validation becomes part of development. 
-The developers are involved in validating feature decisions. 
-Because developers are involved in validation, 
-code can be designed from the start of the feature request to support validations.
-
-Developers are very much involved in the validation of features.
-Often validating an idea will mean deploying it to a subset of the product users and collecting data.
-The feature is not completed and removed from the board until it is validated and fully deployed.
-Validated features will be merged to main, 
-failed features will be closed but kept as inactive branches in case they're needed again.
-
 ## Rules of Engagement ##
 
 Rules of Engagement (RoE) are a key component of distributed efficiency.
@@ -120,6 +104,21 @@ The expidite lane pre-empts all work, even features currently in progress.
 The entire team works to push expidited features through as fast as possible. 
 Developers are not expected to work on other features during expidited work.
 
+## Continuous Validation
+
+Introduce the idea of validating each feature as part of the work process. 
+Use split testing for example to show a correlation between new features and growth.
+
+The validation becomes part of development. 
+The developers are involved in validating feature decisions. 
+Because developers are involved in validation, 
+code can be designed from the start of the feature request to support validations.
+
+Developers are very much involved in the validation of features.
+Often validating an idea will mean deploying it to a subset of the product users and collecting data.
+The feature is not completed and removed from the board until it is validated and fully deployed.
+Validated features will be merged to main, 
+failed features will be closed but kept as inactive branches in case they're needed again.
 
 ## Pull Requests ##
 
