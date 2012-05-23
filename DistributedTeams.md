@@ -28,7 +28,7 @@ The owner is responsible for the overall vision and direction of the product.
 
 A team of **developers** work together in a self-organized group to move feature requests across the board according to the Kanban methodology.
 
-A scrum master oversees the entire process, 
+A team master oversees the entire process, 
 making sure everyone involved knows what their responsibilities.
 
 ## Rules of Engagement ##
