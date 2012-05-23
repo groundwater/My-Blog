@@ -15,6 +15,8 @@ and an asynchronous communication model.
 We use agile development, but with continuous feature development instead of sprints.
 The work-pipeline introduced by Kanban is a means of controlling pacing and work in progress.
 
+![Kanban Board](kanban_board.png)
+
 ## Rules of Engagement ##
 
 Rules of Engagement (RoE) are a key component of distributed efficiency.
