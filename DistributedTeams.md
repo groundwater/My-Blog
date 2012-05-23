@@ -56,10 +56,17 @@ and pull-requests.
 
 ## Rules of Engagement ##
 
-Rules of Engagement (RoE) are a key component of distributed efficiency.
+Meetings are often the place where people ask and are granted permission to begin new work.
+Since there are not meetings, we find another means of scheduling work.
+
+Rules of Engagement (RoE) are a key component to distributed efficiency.
 A RoE grants permission to do something automatically.
 There is no need to wait for permission, or a meeting.
 RoEs are designed to bypass the latency of internal communications and let everyone get working.
+
+The real point that must be emphasized is that one is free to act _without permission_ from the rest of the team.
+During development, individual may become blocked waiting on another person, 
+but a developer should never be blocked from switching to an open task.
 
 ### Product Owner ###
 
@@ -68,7 +75,7 @@ The product owner may:
 1. add, re-order, or remove features to the backlog at any time
 2. remove a feature marked Done from the board
 3. inspect the in-progress features at any time
-4. notify the team master of problems or concerns
+4. notify the team master of any problems or concerns
 
 The product owner has no direct control over the development team.
 
