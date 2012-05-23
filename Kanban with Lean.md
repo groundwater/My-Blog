@@ -85,16 +85,12 @@ The duty of a developer is the keep his or her team updated.
 
 Use pull-requests for any and all work. Work in progress is judged by how often code is pushed. 
 If a developer has not pushed code in 3 days, 
-from the teams perspective they have not done any work in the last 3 days. 
-If a developer really has not done any work, that is fine. 
-We are guarding against solo-developers who go it alone.
+from the teams perspective they have not done any work in the last 3 days.
+Aside from vacation or sick days, this should not occur.
+It doesn't matter how much code is being pushed, one line can be as good as one thousand.
 
-The team also values working code over chat and discussions. 
-There are certainly days that will involve a lot more chat than coding, 
-but the team only judges progress by working code. 
-The team however does not use lines of code as a sub-measure. 
-These guards are just about keeping the team moving, 
-not micro-managing progress on a day-to-day basis.
+Working code is the ultimate measure of success, 
+and working code means passing tests.
 
 ### Master ###
 
@@ -162,6 +158,7 @@ Test coverage must be high enough that any developer,
 at any time, can refactor any part of the code they wish over a new pull request. 
 If all tests pass, the code can be merged into main.
 
+Refactored code should still be reviewed by the team.
 
 ## Distributed Revision Control ##
 
