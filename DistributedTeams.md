@@ -67,8 +67,9 @@ thus there really is no solo action that can be taken.
 ## Team Guidelines ##
 
 Guidelines are different from rules of engagement. 
-An RoE specifies what a team member may do without direct approval because 
-those actions have been pre-approved as part of the overall process.
+A RoE specifies behaviour the team may engage in without pre-approval.
+Guidelines require communication and coordination between team members.
+Think of guidelines as recommended behaviour for teams.
 
 ### Developers ###
 
