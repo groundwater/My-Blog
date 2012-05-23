@@ -152,6 +152,14 @@ If you want to work on something, do it.
 No need to wait for a meeting since there are no meetings. 
 Any work that follows the "Rules of Engagement" is allocated.
 
+### Code Reviews ###
+
+Pull requests can be created by anyone, but are closed as a team.
+Before code is merged into main, the updated code should be reviewed by other team members.
+Pull requests have no expected lifetime, some will be bug fixes that are merged immediately, 
+others may never be merged.
+Any developer may review code at any time, the commits should be commentable line-by-line.
+
 
 ## Testing ##
 
