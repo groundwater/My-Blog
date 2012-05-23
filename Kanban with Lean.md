@@ -15,7 +15,7 @@ and an asynchronous communication model.
 We use agile development, but with continuous feature development instead of sprints.
 The work-pipeline introduced by Kanban is a means of controlling pacing and work in progress.
 
-![Kanban Board](kanban_board.png)
+![Kanban Board](https://github.com/jacobgroundwater/My-Blog/raw/master/kanban_board.png)
 
 ## Rules of Engagement ##
 
