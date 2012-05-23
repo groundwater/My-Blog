@@ -25,6 +25,12 @@ The developers are involved in validating feature decisions.
 Because developers are involved in validation, 
 code can be designed from the start of the feature request to support validations.
 
+Developers are very much involved in the validation of features.
+Often validating an idea will mean deploying it to a subset of the product users and collecting data.
+The feature is not completed and removed from the board until it is validated and fully deployed.
+Validated features will be merged to main, 
+failed features will be closed but kept as inactive branches in case they're needed again.
+
 ## Rules of Engagement ##
 
 Rules of Engagement (RoE) are a key component of distributed efficiency.
