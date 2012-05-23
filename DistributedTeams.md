@@ -1,7 +1,8 @@
-The problem with software development is that good developers are sparse.
-It can be extremely difficult to collect a team together into a single location.
-Traditional office hours, commuting, meetings, 
-and many traditional business structures do not appeal to young talent.
+Traditional offices centralize resources at a specific location. While there 
+cost savings and other efficiencies, it does not produce better software faster. 
+Great software is created by great developers. Unfortunately, each geographical 
+area has a finite supply of highly skilled developers. Therefore, it makes sense
+to use better processes to facilitate a distributed team. 
 
 ## Overview
 
