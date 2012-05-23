@@ -1,6 +1,21 @@
-Kanban w/ Lean
+# Distributed Teams
 
-Backlog -> In Progress -> Done -> Validated
+The problem with software development is that good developers are sparse.
+It can be extremely difficult to collect a team together into a single location.
+Traditional office hours, commuting, meetings, 
+and many traditional business structures do not appeal to young talent.
+
+## Overview
+
+We attempt to solve these problems by making use of distributed teams,
+and an asynchronous communication model.
+
+## Kanban 
+
+We use agile development, but with continuous feature development instead of sprints.
+The work-pipeline introduced by Kanban is a means of controlling pacing and work in progress.
+
+## Continuous Validation
 
 Introduce the idea of validating each feature as part of the work process. 
 Use split testing for example to show a correlation between new features and growth.
