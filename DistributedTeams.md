@@ -4,6 +4,14 @@ Great software is created by great developers. Unfortunately, each geographical
 area has a finite supply of highly skilled developers. Therefore, it makes sense
 to use better processes to facilitate a distributed team. 
 
+## The Key Problems with Distributed Teams
+
+* communication - how do we keep people in sync?
+* timezone - what are the "office hours"?
+* management - takes a specific type of manager to manage remote workers
+* personality - takes a specific type of person to work remotely
+* isolation - an office provides commradery... 
+
 ## Overview
 
 We attempt to solve these problems by making use of distributed teams.
