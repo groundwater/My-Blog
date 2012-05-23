@@ -17,6 +17,20 @@ The work-pipeline introduced by Kanban is a means of controlling pacing and work
 
 ![Kanban Board](https://github.com/jacobgroundwater/My-Blog/raw/master/kanban_board.png)
 
+The team should aim to achieve a steady pace for moving features across the board.
+Team roles are divided according to traditional Scrum roles, but this is not scrum.
+There are no meetings, communication is moved to asynchronous chat rooms, email,
+and pull-reqeusts.
+
+Every team has a single **product owner**, 
+all stakeholders must coordinate their needs through the single owner.
+The owner is responsible for the overall vision and direction of the product.
+
+A team of **developers** work together in a self-organized group to move feature requests across the board according to the Kanban methodology.
+
+A scrum master oversees the entire process, 
+making sure everyone involved knows what their responsibilities.
+
 ## Rules of Engagement ##
 
 Rules of Engagement (RoE) are a key component of distributed efficiency.
