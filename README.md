@@ -3,6 +3,7 @@
 ### Published
 
 - [WhyMethodOverloadingSucks.md](http://www.underflow.ca/my/why-method-overloading-sucks-in-scala/)
+- [Iteratees.md](http://www.underflow.ca/my/what-are-iteratees-in-scala/)
 
 ## License 
 
