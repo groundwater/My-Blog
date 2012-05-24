@@ -37,12 +37,12 @@ The owner is responsible for the overall vision and direction of the product.
 A team of **developers** work together in a self-organized group to move feature requests across the board according to the Kanban methodology.
 
 A **team master** oversees the entire process, 
-making sure everyone involved knows what their responsibilities.
+making sure everyone involved knows their responsibilities.
 
 
 ## Kanban 
 
-Kanban is another agile methodology that implements continuous feature development.
+Kanban is another agile methodology for continuous feature development.
 A kanban team pulls features through a pipeline, 
 making sure to limit work in progress and focusing in task completion.
 
