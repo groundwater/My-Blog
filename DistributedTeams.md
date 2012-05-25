@@ -142,15 +142,6 @@ The master should keep the wheels greased and find and optimize hot-spots.
 Despite the owner bearing sole responsibility for feature decisions, 
 they are allowed and encouraged to seek team feedback while writing user stories and feature requests.
 
-They owner may inspect the same code repository as the developers use to push their daily work, 
-but the owner feedback will be limited to correcting misunderstandings. 
-The master may choose to weigh in as to whether their comments can be incorporated right away, 
-or will have to be placed in a new feature request.
-
-The owner may place emergency features in an expedite lane. 
-The expedite lane preempts all work, even features currently in progress. 
-The entire team works to push expedited features through as fast as possible. 
-Developers are not expected to work on other features during expedited work.
 
 ## Continuous Validation
 
