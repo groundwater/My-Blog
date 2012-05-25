@@ -78,8 +78,9 @@ There is no need to wait for permission, or a meeting.
 RoEs are designed to bypass the latency of internal communications and let everyone get working.
 
 The real point that must be emphasized is that one is free to act _without permission_ from the rest of the team.
-During development, individual may become blocked waiting on another person, 
-but a developer should never be blocked from switching to an open task.
+During development, features and tasks may become blocked, 
+but a developer should never be blocked,
+they can always switch to an open task.
 
 ### Product Owner ###
 
