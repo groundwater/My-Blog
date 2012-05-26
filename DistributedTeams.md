@@ -55,15 +55,16 @@ making sure everyone involved knows their responsibilities.
 ## Kanban 
 
 Kanban is another agile methodology for continuous feature development.
-A kanban team pulls features through a pipeline, 
-making sure to limit work in progress and focusing in task completion.
+A Kanban board displays all current and upcoming feature development in a single place.
+The Kanban board must be available to the entire team at any time.
+The team works together to pull features across the board, implementing them in the process.
 
-A kanban board is a graphical representation of all work available to the entire team at any time.
+Kanban is a continuous process, features are not divided into sprints like traditional scrum.
 
 ![Kanban Board](https://github.com/jacobgroundwater/My-Blog/raw/master/kanban_board.png)
 
 The team should aim to achieve a steady pace for moving features across the board.
-Team roles are divided according to traditional Scrum roles, but this is not scrum.
+Work in progress is limited, so existing tasks must be completed before new tasks are started.
 There are no meetings, communication is moved to asynchronous chat rooms, email,
 and pull-requests.
 
