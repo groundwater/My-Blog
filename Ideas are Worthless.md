@@ -10,7 +10,7 @@ you are holding Monopoly money.
 Before I go further I feel obligated, as a student of rigor,
 to define what I mean by an idea.
 
-> An idea is a mostly formed vision of a particular product, aimed at solving a problem.
+> An idea is a mostly formed vision of a product, aimed at solving a well-defined problem.
 
 There is no billion dollar idea, there is only billion dollar execution.
 
