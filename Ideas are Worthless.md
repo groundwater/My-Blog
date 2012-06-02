@@ -17,8 +17,8 @@ There is no billion dollar idea, there is only billion dollar execution.
 
 ## Ideas are a Poor Foundation
 
-I think it is a mistake to lead your business with an idea.
-There is really only one reason why I think it is a mistake, ideas change.
+It is a mistake to lead your business with an idea.
+There is really only one reason why it is a mistake, ideas change.
 
 1. Founding your business around an idea means the reason you formed your business will soon be non-existent.
 
@@ -55,7 +55,7 @@ able to execute them with a high quality and efficiency.
 
 ## Conclusions
 
-I think that ideas are the fuel of any company, just not the engine.
+Ideas are the fuel of any company, just not the engine.
 Any good team needs ideas, but ideas are small and digestible.
 There is no fundamental idea, core to the company.
 A good team should not discuss ideas, but act on them.
