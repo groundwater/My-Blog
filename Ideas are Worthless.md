@@ -1,4 +1,10 @@
-# Stop Asking Me for an Idea
+# Stop Asking What My Ideas Is
+
+When I tell people I am an aspiring entrepreneur
+often the first words out of their mouthes are
+"What is your idea".
+This happens everywhere, but I do notice it more in Asia.
+I have heard on multiple occasions "All you need is a good idea, you can outsource the rest to India".
 
 You know something, ideas are worthless.
 Facebook was not an original idea, Google was not an original idea,
