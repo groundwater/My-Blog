@@ -12,7 +12,7 @@ to define what I mean by an idea.
 
 > An idea is a mostly formed vision of a product, aimed at solving a well-defined problem.
 
-There is no billion dollar idea, there is only billion dollar execution.
+There is no billion dollar idea, but there are billion dollar teams.
 
 
 ## Ideas are a Poor Foundation
