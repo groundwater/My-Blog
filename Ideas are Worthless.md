@@ -4,7 +4,8 @@ You know something, ideas are worthless.
 Facebook was not an original idea, Google was not an original idea,
 and the iPhone was not an original idea.
 If you go around holding and trading ideas like they are stocks,
-you are playing the wrong game entirely.
+you are playing the wrong game entirely;
+you are holding Monopoly money.
 
 Before I go further I feel obligated, as a student of rigor,
 to define what I mean by an idea.
