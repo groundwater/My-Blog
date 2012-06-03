@@ -1,2 +1,2 @@
-Moved to [DistributedTeams/Index.md]
+Moved to [DistributedTeams](DistributedTeams/Index.md) directory
 
