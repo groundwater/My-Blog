@@ -14,10 +14,6 @@ productivity is measured by working products, not hours spent in an office.
 
 In order to keep individuals working,
 we attempt to eliminate as many blocks as possible.
-Most of the guidelines operate around the following idea:
-
-- open work as individuals
-- close work as a team
 
 As an individual you are free to start any work you like, you can even finish it.
 Start anything you like on your own,
