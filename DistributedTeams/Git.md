@@ -104,3 +104,23 @@ and changes can be merged early.
 Merging early creates small frequent conflicts,
 rather than a few large conflicts.
 
+
+### Pull Requests ###
+
+Thought not actually a feature of git,
+pull requests are an indispensable extension.
+A pull request is a web-based forum to discuss a branch of code before it is merged into main.
+Github provides an elegant pull request system.
+The team can open a pull request as a place to discuss the changes in the branch.
+Other developers can comment on the code directly,
+or make general comments related to the branch.
+
+Pull requests (PR) form a permanent archive of the intended change,
+regardless if the pull request is accepted or denied.
+It is okay to open an PR with no intention of ever merging it.
+PRs can be used as a place to share experimental code,
+or other wild ideas.
+
+Almost all shared branches should have open pull requests attached to them.
+Since developers are supposed to push their changes daily,
+most PRs should be updated every day.
