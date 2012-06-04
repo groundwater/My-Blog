@@ -26,3 +26,4 @@ but the team is required to bring that work back into the main project.
 * [Guidelines](Guidelines.md)
 * [FAQ](Faq.md)
 * [Reference](Reference.md)
+	* [Git](Git.md)
