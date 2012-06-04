@@ -6,6 +6,9 @@ See [Git-Scm](http://git-scm.com/about) for an introduction.
 Git lets developers focus on small tasks, rather than the entire project.
 Developers should focus on each commit,
 in isolation, as an independent, incremental, and atomic update.
+No single change is perfect,
+but if every commit advances the functionality of the code,
+the project as a whole moves towards completion.
 
 ## Commits ##
 
