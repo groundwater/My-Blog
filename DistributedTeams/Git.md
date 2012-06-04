@@ -57,7 +57,7 @@ Include references to tickets, communications, and messages that inspired the ch
 ## Branching ##
 
 Branching is cheap in git, so cheap that _all_ changes should be done on a branch.
-You should _never_ work from main -- Main is for merging!
+You should _never_ work from main — Main is for merging!
 
 Create and checkout a new branch with 
 
