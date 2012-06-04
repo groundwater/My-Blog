@@ -3,7 +3,7 @@
 1. [First Class Teams](#first-class-teams)
 2. [Collaborate Asynchronously](#collaborate-asynchronously)
 3. [Communicate Continuously](#communicate-continuously)
-4. [Push Contributions Daily](#Push-contributions-daily)
+4. [Push Contributions Daily](#push-contributions-daily)
 5. [Use Rules of Engagement](#use-rules-of-engagement)
 
 ## First Class Teams
