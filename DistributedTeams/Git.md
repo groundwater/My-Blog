@@ -13,15 +13,15 @@ but incremental working states are a good general measure.
 
 It is quite reasonable to commit ever minute,
 but it may also be every half hour.
-Experience, practice and peer feedback are the best ways to improve committing behaviour.
+Experience, practice and peer feedback are the best ways to improve committing behavior.
 
-### Desinging Commits ###
+### Designing Commits ###
 
 Good code starts with good commits.
 Git never commits code that you have not explicitly placed into the next commit.
 Before code is committed, it must be placed into a staging area called the index.
 
-Not only can individial files be staged, but individual lines in a file.
+Not only can individual files be staged, but individual lines in a file.
 Use `git add -p` to interactively add chunks of changes.
 You can see exactly what has been staged with `git diff --cached`.
 Use `git add -i` to fine-tune commits by adding or removing chunks interactively.
@@ -71,7 +71,7 @@ While it is better to share early, it is not a requirement to share immediately.
 
 ## Merging ##
 
-Brances are re-combined in one of two ways:
+Branches are re-combined in one of two ways:
 
 1. Merge
 2. Rebase
