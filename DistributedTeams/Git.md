@@ -2,6 +2,7 @@
 
 We recommend using Git for all development.
 See [Git-Scm](http://git-scm.com/about) for an introduction.
+Git lets developers focus on quality incremental updates.
 
 ## Commits ##
 
@@ -51,7 +52,6 @@ Write it either as an internal monologue,
 or as a justification to the rest of the team. It should contain your reasoning, not the execution. 
 The code will self-document what functionality has changed,
 commit messages are about explaining why the change was made.
-
 Include references to tickets, communications, and messages that inspired the change.
 
 ## Branching ##
