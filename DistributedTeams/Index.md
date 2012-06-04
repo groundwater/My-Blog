@@ -25,3 +25,4 @@ but the team is required to bring that work back into the main project.
 * [Rules of Engagement](Rules of Engagement.md)
 * [FAQ](Faq.md)
 * [Reference](Reference.md)
+* [Guidelines](Guidelines.md)
