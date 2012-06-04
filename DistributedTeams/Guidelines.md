@@ -31,7 +31,7 @@ and working code means passing tests.
 
 The masters job is to give feedback to the entire team. 
 Thus all work done by the master involves directly communicating with team members. 
-The master should trust but verify as many parts of the project as possible.
+The master should **trust but verify** as many parts of the project as possible.
 
 1. has code been reviewed before merging
 2. are developers pushing their changes often enough
