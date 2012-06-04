@@ -19,4 +19,4 @@ A distributed manager must trust their team,
 but keep track of the project details.
 A team manager must be able to notify team members who are going off track without micro-managing.
 
-### What kind of developer can work in a distributed team? 
+## What kind of developer can work in a distributed team? 
