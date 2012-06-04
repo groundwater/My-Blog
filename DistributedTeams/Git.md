@@ -2,7 +2,10 @@
 
 We recommend using Git for all development.
 See [Git-Scm](http://git-scm.com/about) for an introduction.
-Git lets developers focus on quality incremental updates.
+
+Git lets developers focus on small tasks, rather than the entire project.
+Developers should focus on each commit,
+in isolation, as an independent, incremental, and atomic update.
 
 ## Commits ##
 
