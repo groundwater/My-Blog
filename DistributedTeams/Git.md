@@ -18,6 +18,11 @@ It is quite reasonable to commit ever minute,
 but it may also be every half hour.
 Experience, practice and peer feedback are the best ways to improve committing behavior.
 
+A commit may touch a single file, or many.
+Refactoring a class name might affect most of the source in the repository.
+Since every instance of the name must be changed,
+it makes sense to include every effected file in the commit.
+
 ### Designing Commits ###
 
 Good code starts with good commits.
@@ -49,10 +54,12 @@ The first line is the commit title:
 2. Single Line
 3. Use Simple Present Tense
   (i.e. "Fix Type", "Create New Messenger Class")
+4. Describe What You Did
 
 If necessary, leave a blank line and write a message explaining _why_ you made the change. 
 Write it either as an internal monologue, 
-or as a justification to the rest of the team. It should contain your reasoning, not the execution. 
+or as a justification to the rest of the team. 
+It should contain your reasoning, not the execution. 
 The code will self-document what functionality has changed,
 commit messages are about explaining why the change was made.
 Include references to tickets, communications, and messages that inspired the change.
@@ -98,7 +105,7 @@ The true power of git comes from sharing.
 Developers should push their changes daily.
 Do not share everything you do,
 it is not necessary to share every experimental branch.
-Use lots of branches to craft a set of commits worth sharing.
+Use lots of branches locally to craft a set of commits worth sharing.
 
 ![Git Sharing Model](//github.com/jacobgroundwater/My-Blog/raw/master/DistributedTeams/git-sharing.png)
 
