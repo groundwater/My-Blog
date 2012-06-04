@@ -1,10 +1,10 @@
 # Distributed Teams Manifesto
 
-1. First Class Teams
-2. Collaborate Asynchronously
-3. Communicate Continuously
-4. Push Contributions Daily
-5. Use Rules of Engagement
+1. [First Class Teams](#first-class-teams)
+2. [Collaborate Asynchronously](#collaborate-asynchronously)
+3. [Communicate Continuously](#communicate-continuously)
+4. [Push Contributions Daily](#Push-contributions-daily)
+5. [Use Rules of Engagement](#use-rules-of-engagement)
 
 ## First Class Teams
 
