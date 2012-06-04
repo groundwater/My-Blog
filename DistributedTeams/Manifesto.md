@@ -31,7 +31,7 @@ Team members should deal with the largest task standing between them and their l
 
 Despite being distributed and asynchronous,
 a team should communicate constantly and continuously.
-Every waking through needs a plate that it can be shared with the rest of the team.
+Every waking thought needs a place where it can be shared with the rest of the team.
 Share both work and non-work thoughts;
 teams need to bond socially as well as professionally.
 
