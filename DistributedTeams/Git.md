@@ -114,6 +114,12 @@ and changes can be merged early.
 Merging early creates small frequent conflicts,
 rather than a few large conflicts.
 
+If by the end of the day you're not confident about sharing anything,
+just pick a branch and push it.
+Uncertainty means you need feedback,
+the only way to get feedback is to share.
+Use a pull request to tell others why you are stuck,
+and what that you need feedback.
 
 ### Pull Requests ###
 
