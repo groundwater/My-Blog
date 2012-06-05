@@ -83,13 +83,20 @@ others may never be merged.
 Any developer may review code at any time, the commits should be commentable line-by-line.
 
 
-## Testing ##
+## Test Driven Development ##
 
-Test coverage must be high enough that any developer, 
-at any time, can refactor any part of the code they wish over a new pull request. 
-If all tests pass, the code can be merged into main.
+Exactly what Test Driven Development (TDD) means is a debated topic.
+We have a practical, yet abstract definition of TDD.
+Test coverage must be high enough such that,
+any developer, at any time, may refactor the code base in a new branch.
+Should all the tests pass, the code may be merged into main.
 
-Refactored code should still be reviewed by the team.
+Practically, large-sweeping changes should be discussed with the team.
+Use a pull-request to coordinate,
+the change and review the changes by at least one other developer.
+
+Encourage frequent refactoring,
+by using TDD developers can refactor often and without fear.
 
 ## Distributed Revision Control ##
 
