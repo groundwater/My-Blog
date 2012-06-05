@@ -13,11 +13,10 @@ if you do not have a first class team,
 implementing the remaining pieces will not help.
 
 A first class team is difficult to define,
-but generally means the following things hold true:
-
-1. the team shares a common vision, and set of core values
-2. team members are driven by a passion
-3. there exists a mutual respect between members
+but it generally means a team who is highly skilled,
+and who shares a common vision or set of values.
+First class teams are highly autonomous,
+and each member usually has a strong sense of pride towards their team.
 
 ## Collaborate Asynchronously
 
