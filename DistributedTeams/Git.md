@@ -12,26 +12,24 @@ the project as a whole moves towards completion.
 
 ## Commits ##
 
-Commits should be atomic.
 Each commit should take the code from one working state to another.
 There are reasonable exceptions to this,
-but incremental working states are a good general measure.
+but incremental working states are a good baseline.
 
 It is quite reasonable to commit ever minute,
 but it may also be every half hour.
-Experience, practice and peer feedback are the best ways to improve committing behavior.
-
-A commit may touch a single file, or many.
-Refactoring a class name might affect most of the source in the repository.
-Since every instance of the name must be changed,
-it makes sense to include every effected file in the commit.
+Experience, practice and peer feedback are the best ways to determine what's appropriate.
 
 ### Designing Commits ###
 
-Good code starts with good commits.
-Git never commits code that you have not explicitly placed into the next commit.
-Before code is committed, it must be placed into a staging area called the index.
+Good code starts with good commits, and good commits tell a story.
+There are no hard rules, a commit may touch a single file, or hundreds.
 
+For example, refactoring a class name might affect most of the source in the repository.
+Since every instance of the name must be changed,
+it makes sense to include every effected file in the commit.
+
+Git never commits code that you have not explicitly staged.
 Not only can individual files be staged, but individual lines in a file.
 Use `git add -p` to interactively add chunks of changes.
 You can see exactly what has been staged with `git diff --cached`.
@@ -44,70 +42,53 @@ Use `git stash --keep-index` to temporarily remove all unstaged changes.
 This will leave your working copy exactly as it would appear after the next commit.
 After you test and verify the commit, use `git stash pop` to re-apply the unstaged changes.
 
-These commands should be used together to produce better commits,
-it might be worth aliasing them.
-
 ### Commit Message ###
 
 All commits require messages, and how you write a message is important.
 
-The first line is the commit title:
-
-1. Use Title Case
-2. Single Line
-3. Use Simple Present Tense
-  (i.e. "Fix Type", "Create New Messenger Class")
-4. Describe What You Did
-
-If necessary, leave a blank line and write a message explaining _why_ you made the change. 
-Write it either as an internal monologue, 
-or as a justification to the rest of the team. 
-It should contain your reasoning, not the execution. 
-The code will self-document what functionality has changed,
-commit messages are about explaining why the change was made.
-Include references to tickets, communications, and messages that inspired the change.
+A commit message should explain _why_ you did something.
+The message should have a short title,
+but may include a body of text as long as you require.
+Use the commit message to reference any sources that inspired the change,
+such as an issue number,
+links to discussions, etc.
 
 ## Branching ##
 
 Branching is cheap in git, so cheap that _all_ changes should be done on a branch.
 You should _never_ work from main — Main is for merging!
 
-Create and checkout a new branch with 
-
-    git checkout -b MyNewFeature
-
 Since branching is so easy,
 developers are free to explore and share wild ideas without impacting the main code base.
-Developers are free to create as many branches as they like;
-branches remain local until explicitly pushed.
-While it is better to share early, it is not a requirement to share immediately.
+Developers are free to create as many branches as they like.
+Branches are pushed individually and explicitly to a shared or remote repository.
 
 ## Merging ##
 
-Branches are re-combined in one of two ways:
+A branch is useless unless it can be merged with another branch.
+Practically, branches can merge with any other branch,
+it is good practice to get used to frequent branching and merging.
 
-1. Merge
-2. Rebase
-
+There are two ways to bring branches together, with a **merge** or **rebase**.
 Each method combines two branches together, merging code changes along the way.
 The difference between each method is how they appear in the commit history.
 
 A rebase produces a sequential history, a merge produces a parallel history.
 
 If your code has not been shared (i.e. `git push`) use rebase.
-Rebase looks cleaner, and resolves conflicts better than merge.
+Using rebase locally makes your commit history cleaner.
 If your code has already been shared, you **must** use merge.
 Rebasing shared code is the git equivalent of an oil spill,
-it is creates a mess that requires a lot of time and effort to clean up.
+it creates a mess that requires a lot of time and effort to clean up.
 
-> Never Rebase Shared Branches
+**Never Rebase Shared Branches!**
 
 ## Sharing ##
 
 The true power of git comes from sharing.
 Developers should push their changes daily.
-Do not share everything you do,
-it is not necessary to share every experimental branch.
+_Do not share everything you do._
+It is not necessary to share every experimental branch.
 Use lots of branches locally to craft a set of commits worth sharing.
 
 ![Git Sharing Model](//github.com/jacobgroundwater/My-Blog/raw/master/DistributedTeams/git-sharing.png)
@@ -121,16 +102,13 @@ If by the end of the day you're not confident about sharing anything,
 just pick a branch and push it.
 Uncertainty means you need feedback,
 the only way to get feedback is to share.
-Use a pull request to tell others why you are stuck,
-and what that you need feedback.
+Use a pull request to tell others why you are stuck and that you need feedback.
 
 ### Pull Requests ###
 
-Thought not actually a feature of git,
-pull requests are an indispensable extension.
-A pull request is a web-based forum to discuss a branch of code before it is merged into main.
-Github provides an elegant pull request system.
-The team can open a pull request as a place to discuss the changes in the branch.
+Although not actually a feature of git,
+pull requests are an indispensable part of the git work flow.
+A pull request is an online space to discuss a particular branch of code.
 Other developers can comment on the code directly,
 or make general comments related to the branch.
 
