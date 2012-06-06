@@ -1,9 +1,9 @@
 ## Team Guidelines ##
 
 Guidelines are different from rules of engagement. 
-A RoE specifies behaviour the team may engage in without pre-approval.
+A RoE specifies behavior the team may engage in without pre-approval.
 Guidelines require communication and coordination between team members.
-Think of guidelines as recommended behaviour for teams.
+Think of guidelines as recommended behavior for teams.
 
 Code that has been pushed belongs to the team.
 Get used to other people changing your code,
@@ -52,6 +52,7 @@ It doesn't matter how much code is being pushed, one line can be as good as one 
 Working code is the ultimate measure of success, 
 and working code means passing tests.
 
+
 ### Master ###
 
 The masters job is to give feedback to the entire team. 
@@ -64,6 +65,7 @@ The master should **trust but verify** as many parts of the project as possible.
 4. has the product owner submitted a proper feature request
 
 The master should keep the wheels greased and find and optimize hot-spots.
+
 
 ### Product Owner ###
 
