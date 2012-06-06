@@ -32,6 +32,12 @@ Any developer may:
 2. open a pull request for any reason
 3. provide feedback on another pull request
 4. pull more information about a feature from the product owner
+5. merge a branch into main subject to the following conditions:
+	i. two or more developers sign off on the merge
+	ii. the branch passes all tests
+
+Pull requests do not need to be directly related to a particular feature.
+It is possible, and encouraged, to open PRs in order to refactor the existing code base.
 
 ### Team Master ###
 
