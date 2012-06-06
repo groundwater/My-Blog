@@ -24,6 +24,7 @@ but the team is required to bring that work back into the main project.
 * [Manifesto](Manifesto.md)
 * [Rules of Engagement](Rules of Engagement.md)
 * [Guidelines](Guidelines.md)
+	* [Communication](Communication.md)
 * [FAQ](Faq.md)
 * [Reference](Reference.md)
 	* [Git](Git.md)
