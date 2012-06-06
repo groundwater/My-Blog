@@ -5,6 +5,11 @@ A RoE specifies behaviour the team may engage in without pre-approval.
 Guidelines require communication and coordination between team members.
 Think of guidelines as recommended behaviour for teams.
 
+Code that has been pushed belongs to the team.
+Get used to other people changing your code,
+or just to realize that it's not your code anymore.
+
+
 ## Github Etiquette ##
 
 Pushed code belongs to the team,
