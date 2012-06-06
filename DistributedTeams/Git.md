@@ -1,7 +1,8 @@
 # Git #
 
 We recommend using Git for all development.
-See [Git-Scm](http://git-scm.com/about) for an introduction.
+See [Introduction to Git](http://learn.github.com/p/intro.html) for an introduction,
+or [Git-Scm](http://git-scm.com/about) for more information.
 
 Git lets developers focus on small tasks, rather than the entire project.
 Developers should focus on each commit,
