@@ -126,3 +126,4 @@ most PRs should be updated every day.
 ## References
 
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen
+- [A (simpler) Successful Git Branching Model](http://drewfradette.ca/a-simpler-successful-git-branching-model/) by Drew Fradette
