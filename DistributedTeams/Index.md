@@ -1,8 +1,9 @@
-Traditional offices centralize resources at a specific location. While there 
-cost savings and other efficiencies, it does not produce better software faster. 
-Great software is created by great developers. Unfortunately, each geographical 
-area has a finite supply of highly skilled developers. Therefore, it makes sense
-to use better processes to facilitate a distributed team. 
+Traditional offices centralize resources at a specific location. 
+While there cost savings and other efficiencies,
+it does not produce better software faster. 
+Great software is created by great developers. 
+Unfortunately, each geographical area has a finite supply of highly skilled developers.
+Therefore, it makes sense to use better processes to facilitate a distributed team. 
 
 ## Overview
 
