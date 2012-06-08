@@ -13,13 +13,6 @@ Communication between team members is frequent but asynchronous, utilizing chat 
 Teams are free to work in a style that suits them best;
 productivity is measured by working products, not hours spent in an office.
 
-In order to keep individuals working,
-we attempt to eliminate as many blocks as possible.
-
-As an individual you are free to start any work you like, you can even finish it.
-Start anything you like on your own,
-but the team is required to bring that work back into the main project.
-
 ## Sections
 
 * [Manifesto](Manifesto.md)
