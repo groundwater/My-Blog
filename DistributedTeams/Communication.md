@@ -1,5 +1,9 @@
 # Communication
 
+The heart of our process lies in communication.
+Teams are free to setup and manage their own work processes,
+the only requirement is that they communicate on shared channels as much as possible.
+
 ## Group Messaging
 
 Using the group messaging is _very_ important.
