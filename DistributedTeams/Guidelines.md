@@ -9,26 +9,7 @@ Code that has been pushed belongs to the team.
 Get used to other people changing your code,
 or just to realize that it's not your code anymore.
 
-
-## Github Etiquette ##
-
-Pushed code belongs to the team,
-but even still developers need their own domains of control.
-If you did not open the pull request,
-it is good manners to discuss your intentions before pushing an update to that branch.
-If you wish to significantly alter the code in the branch,
-create a new branch with a new PR.
-Any developer can branch another developer's work in progress,
-pushed code belongs to the team.
-If you do branch a branch,
-leave a notice in the original PR.
-
-Your pushed code belongs to the team!
-Other developers can and will offer their wild opinions on your code.
-Treat all objections as "please explain your rationale".
-We encourage open debates as long as, at the end of the day, new changes have been pushed.
-Developers must reach a level of mutual trust and respect in order for this to work well.
-
+## Roles ##
 
 ### Developers ###
 
@@ -71,6 +52,25 @@ The master should keep the wheels greased and find and optimize hot-spots.
 
 Despite the owner bearing sole responsibility for feature decisions, 
 they are allowed and encouraged to seek team feedback while writing user stories and feature requests.
+
+## Github Etiquette ##
+
+Pushed code belongs to the team,
+but even still developers need their own domains of control.
+If you did not open the pull request,
+it is good manners to discuss your intentions before pushing an update to that branch.
+If you wish to significantly alter the code in the branch,
+create a new branch with a new PR.
+Any developer can branch another developer's work in progress,
+pushed code belongs to the team.
+If you do branch a branch,
+leave a notice in the original PR.
+
+Your pushed code belongs to the team!
+Other developers can and will offer their wild opinions on your code.
+Treat all objections as "please explain your rationale".
+We encourage open debates as long as, at the end of the day, new changes have been pushed.
+Developers must reach a level of mutual trust and respect in order for this to work well.
 
 ## Email Etiquette ##
 
