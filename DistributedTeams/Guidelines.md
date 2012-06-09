@@ -1,4 +1,4 @@
-## Team Guidelines ##
+# Team Guidelines #
 
 Guidelines are different from rules of engagement. 
 A RoE specifies behavior the team may engage in without pre-approval.
