@@ -74,7 +74,7 @@ they are allowed and encouraged to seek team feedback while writing user stories
 
 ## Email Etiquette ##
 
-#### Use Quotes
+### Use Quotes
 
 Email is a sequential discussion, and rarely do lengthly email discussions fit nicely into this model.
 Always, always, always use quotes when replying.
@@ -82,13 +82,13 @@ A reader should _not_ have to read previous emails to understand the context of 
 If it a waste of your time to find the right quote,
 it is a waste of _our_ time to read the reply.
 
-#### Respond Quickly
+### Respond Quickly
 
 Replying slowly is unacceptable.
 If you cannot answer a question within a few hours,
 you should reply saying how long you expect the answer to take.
 
-#### Issue Tracking
+### Issue Tracking
 
 Issues that will take a great deal of time should be migrated to a proper issue tracker.
 Your inbox is not your organizer.
